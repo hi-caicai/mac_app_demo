@@ -1,7 +1,4 @@
-var app = require('app'),
-    express = require('express'),
-    picture =require("./lib/data.js")
-;  // Module to control application life.
+var app = require('app');  // Module to control application life.
 var BrowserWindow = require('browser-window');  // Module to create native browser window.
 
 // Report crashes to our server.
